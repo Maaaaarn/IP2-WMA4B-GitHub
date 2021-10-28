@@ -1,1 +1,1 @@
-# IP2-WMA4B-GitHub
+# IPT2-WMA4B-JLAM-GitHub
