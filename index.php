@@ -41,7 +41,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center logo-wrap">
-						<div id="fh5co-logo"><a href="index.html">DC Steaks & Burgers<span>.</span></a></div>
+						<div id="fh5co-logo"><a href="index.php">DC Steaks & Burgers<span>.</span></a></div>
 					</div>
 					
 					<div class="col-xs-12 text-center menu-1 menu-wrap">
