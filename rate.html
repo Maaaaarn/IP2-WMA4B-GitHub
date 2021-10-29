@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Star Rating Form | CodingNepal</title>
+    <link rel="stylesheet" href="css/rate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+            <div class="fh5co-nav" role="navigation">
+				<div class="row">
+					<div class="col-xs-12 text-center logo-wrap">
+						<div id="fh5co-logo"><a href="index.php">DC Steaks & Burgers<span>.</span></a></div>
+					</div>
+					
+			        <div class="col-xs-12 text-center menu-1 menu-wrap" style="display:flex; margin:auto; padding:0;" >
+                        <ul style="display:flex; margin:auto; padding:0;">
+							<li><a href="index.php">Home</a></li>
+							<li><a href="menu.html">Menu</a></li>
+							<li class="has-dropdown">
+								<a href="gallery.html">Gallery</a>
+					
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li class="active" ><a href="rate.html">Rate Us</a></li>
+							<li><a href="menu_checkout.php">Order Here</a></li>
+						</ul>
+                </div>
+			</div>
+        </div>
+    <div class="container">
+      <div class="post">
+        <div class="text">Thank you for rating us!></div>
+	<a href="index.ph">Back</a>
+      </div>
+      <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+          <div class="textarea">
+            <textarea cols="30" placeholder="Leave your comment here!..." required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        return false;
+      }
+    </script>
+
+  </body>
+</html>
