@@ -39,7 +39,7 @@ session_start();
 							<li><a href="rate.html">Rate Us</a></li>
 							<li class="active" ><a href="menu_checkout.php">Order Here</a></li>
 						</ul>
-                        <div><a href="checkout.ph" id="btn" class="btn">Check out</a></div>
+                        <div><a href="checkout.php" id="btn" class="btn">Check out</a></div>
                     </div>
                   
                 </div>
